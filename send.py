@@ -1,3 +1,6 @@
+#Written by group 9(Chakong Lor and Preston)
+#Date: 11/22/2023
+
 import pysftp
 import sys
 
