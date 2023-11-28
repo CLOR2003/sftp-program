@@ -1,0 +1,20 @@
+How to use send.py:
+    requirements(Must have):
+        1. VPS ip address
+        2. VPS username
+        3. VPS must use public-private keys to connect
+
+    instructions:
+        1. Enter send.py directory1 directory2
+        2. Enter in ip address
+        3. Enter in path to private key
+        4. Enter passphrase(if there isn't one, just hit enter)
+    
+    important mentions:
+        1. Use absolute path for all prompts relating to directories
+        2. make sure to run the program on linux
+        3. directory1 is the local directory that the user wants to send to VPS
+        4. directory2 is the remote directory that will receive the files
+
+    examples:
+        send.py /home/user/ /home/remote/
