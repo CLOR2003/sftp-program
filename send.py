@@ -16,8 +16,10 @@ def main():
     #pw = input("password: ")
     cnopt = pysftp.CnOpts()
     cnopt.hostkeys = None
+    print("Connecting...")
     sftp = pysftp.Connection(hostname,username=username,private_key=private_key,private_key_pass=passphrase,cnopts=cnopt)
     sftp.put_r(sys.argv[1],sys.argv[2])
+    print("Done!")
 
 
 if __name__ == "__main__":
