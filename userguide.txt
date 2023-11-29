@@ -17,4 +17,12 @@ How to use send.py:
         4. directory2 is the remote directory that will receive the files
 
     examples:
-        send.py /home/user/ /home/remote/
+        if one file is being sent:
+            send.py /home/local/file /home/remote/
+        if whole directory is being sent:
+             send.py -d /home/local/ /home/remote/
+
+    
+    others:
+        1. if the user wants to send many files within a directory
+        then be sure to add the -d flag for "directory"
